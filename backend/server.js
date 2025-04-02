@@ -74,7 +74,6 @@ app.post('/webhook', (req, res) => {
   }
 });
 
-
 // معالج طلب POST على المسار /api/sendMessage
 app.post('/api/sendMessage', async (req, res) => {
   // استقبال البيانات من العميل

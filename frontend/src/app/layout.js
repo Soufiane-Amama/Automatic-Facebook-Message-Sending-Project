@@ -15,16 +15,16 @@ const cairo = Cairo({
 });
 
 export const metadata = {
-  title: "Sixty Challenge App", // عنوان الموقع
+  title: "Messenger App", // عنوان الموقع
   description: // وصف الموقع
-    "The Sixty Challenge app helps you achieve your goals and build positive habits in 60 consecutive days with more than 1,000 champions",
+    "",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
       <head>
-        <link rel="icon" href="/sixty.png" /> 
+        <link rel="icon" href="" /> 
       </head>
       <body className={`${cairo.className} ${tajawal.className}`} >
         <ChakraProvider theme={theme}>
